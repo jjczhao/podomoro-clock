@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/podomoro-clock/static/css/main.28e6286f.chunk.css",
+    "main.js": "/podomoro-clock/static/js/main.4966a61d.chunk.js",
+    "main.js.map": "/podomoro-clock/static/js/main.4966a61d.chunk.js.map",
+    "runtime~main.js": "/podomoro-clock/static/js/runtime~main.7c4366c2.js",
+    "runtime~main.js.map": "/podomoro-clock/static/js/runtime~main.7c4366c2.js.map",
+    "static/js/2.3e669e04.chunk.js": "/podomoro-clock/static/js/2.3e669e04.chunk.js",
+    "static/js/2.3e669e04.chunk.js.map": "/podomoro-clock/static/js/2.3e669e04.chunk.js.map",
+    "index.html": "/podomoro-clock/index.html",
+    "precache-manifest.a5c21e019741cf4d7c0e00e838b9bd23.js": "/podomoro-clock/precache-manifest.a5c21e019741cf4d7c0e00e838b9bd23.js",
+    "service-worker.js": "/podomoro-clock/service-worker.js",
+    "static/css/main.28e6286f.chunk.css.map": "/podomoro-clock/static/css/main.28e6286f.chunk.css.map"
+  }
+}
