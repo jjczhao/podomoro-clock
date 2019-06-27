@@ -1,33 +1,58 @@
-.App {
-  text-align: center;
+*{
+  padding: 0px;
+  margin: 0px;
+  background: lightblue;
+  font-family: 'Dancing Script', cursive;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#wrapper{
+  margin: 10% auto;
+  max-width: 1000px;
+  width: 850px;
+  border: 5px inset pink;
+  border-radius: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#title,#timer{
+  border-radius: 15px;
+}
+
+#title{
+  font-weight:850;
+  font-size:6em;
+}
+
+.clickable-button{
+  border: 5px outset gray;
+  padding-top:5px;
+  border-radius: 15px;
+  user-select: none;
+}
+
+.clickable-button:hover{
+  background-color: black;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.clickable-button:active{
+  border: 5px inset lightblue;
+  transition-duration: .1s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-rows{
+  max-width: 1000px;
+  width: 835px;
+  margin: 15px auto;
+}
+
+#time-left{
+  font-size: 5em;
+  user-select: none;
+}
+
+.title-labels{
+  font-weight: 650;
+  user-select: none;
+  font-size: 2em;
 }
